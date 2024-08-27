@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.U.R.A Extension</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- First Screen -->
+    <div class="screen" id="screen1">
+        <h1 class="title">Browser Extension for Fake URL Detection</h1>
+        <p class="label">URL under examination:</p>
+        <div class="url"><span id="current-url">Fetching URL...</span></div>
+        <p class="label">Website Safety Score:</p>
+        <div class="score">analyzing..</div>
+        <p class="label">Network logs status: <span id="timer">(Checking again in 60 s)</span></p>
+        <div class="status">Normal</div>
+        <button class="button" id="spamCheckButton">Check for Spam</button>
+    </div>
+
+    <!-- Second Screen -->
+    <div class="screen" id="screen2" >
+        <textarea class="textarea" placeholder="Paste content here..."></textarea>
+        <button class="button" id="checkButton">Check</button>
+        <div class="result">Result: Please enter some text </div>
+        <button class="button" id="backButton">Back</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
