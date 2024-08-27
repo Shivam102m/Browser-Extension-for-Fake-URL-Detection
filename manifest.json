@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Browser Extension for Fake URL Detection",
+    "version": "1.0",
+    "description": "A multi-purpose security tool for phishing detection, spam filtering, and network log analysis.",
+    "icons": {
+        "16": "icon-green.png",
+        "48": "icon-green.png",
+        "128": "icon-green.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icon-green.png",
+            "48": "icon-green.png",
+            "128": "icon-green.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
