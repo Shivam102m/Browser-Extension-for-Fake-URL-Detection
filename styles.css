@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     /* background-color: #1e1e1e; */
-    background-color: #bf3100;
-    color: #ffffff;
+    background: linear-gradient(20.55deg, #122089 0%, #180c18 100%);    border-radius: 18px;
+    color: #230303;
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     padding: 20px;
     margin: 10px;
-    background-color: #1E222D;
+    background: linear-gradient(220.55deg, #122089 0%, #180c18 100%);    
     border-radius: 18px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
@@ -27,7 +27,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
     /* color: #ff4c4c; */
-    color: #e0ca3c;
+    color: #ffffff;
 }
 
 .label {
@@ -37,7 +37,7 @@ body {
 }
 
 .url, .score, .status {
-    background-color: #3c3c3c;
+    background-color: #a0b7eb;
     padding: 8px;
     border-radius: 4px;
     text-align: center;
@@ -55,7 +55,7 @@ body {
 .button {
     width: 100%;
     padding: 10px;
-    background-color: #ff4c4c;
+    background-color: #07428b;
     border: none;
     border-radius: 4px;
     color: white;
@@ -66,7 +66,7 @@ body {
 }
 
 .button:hover {
-    background-color: #ff7373;
+    background: linear-gradient(220.55deg, #122089 0%, #180c18 100%);
 }
 
 .textarea {
