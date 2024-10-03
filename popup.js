@@ -1,5 +1,4 @@
 
-
 document.getElementById('screen2').style.display = 'none';
 
 document.getElementById('spamCheckButton').addEventListener('click', function() {

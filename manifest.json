@@ -4,16 +4,16 @@
     "version": "1.0",
     "description": "A multi-purpose security tool for phishing detection, spam filtering, and network log analysis.",
     "icons": {
-        "16": "icon-green.png",
-        "48": "icon-green.png",
-        "128": "icon-green.png"
+        "16": "green-icon.png",
+        "48": "green-icon.png",
+        "128": "green-icon.png"
     },
     "action": {
         "default_popup": "index.html",
         "default_icon": {
-            "16": "icon-green.png",
-            "48": "icon-green.png",
-            "128": "icon-green.png"
+          "16": "green-icon.png",
+          "48": "green-icon.png",
+          "128": "green-icon.png"
         }
     },
     "background": {

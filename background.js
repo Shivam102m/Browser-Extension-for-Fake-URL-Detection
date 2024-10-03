@@ -3,13 +3,13 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         let iconPath;
 
         if (request.score < 40) {
-            iconPath = 'icon-red.png'; 
+            iconPath = 'red-icon.png'; 
             console.log('Setting icon to red');
         } else if (request.score >= 40 && request.score <= 70) {
-            iconPath = 'icon-yellow.png';
+            iconPath = "yellow-icon.png";
             console.log('Setting icon to yellow');
         } else {
-            iconPath = 'icon-green.png'; 
+            iconPath = "green-icon.png"; 
             console.log('Setting icon to green');
         }
 
